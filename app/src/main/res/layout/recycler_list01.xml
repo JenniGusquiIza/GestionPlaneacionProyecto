@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_personas"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_4dp">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_40dp"
+        android:layout_weight="0."
+        android:layout_marginTop="@dimen/margin_4dp"
+        android:layout_marginLeft="@dimen/margin_4dp"
+        android:elevation="3dp"
+        app:civ_border_color="@color/gray200"
+        app:civ_border_width="1dp"
+        app:srcCompat="@drawable/logo_electro" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:paddingTop="@dimen/padding_4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/size_default">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_codigo"
+                android:textSize="@dimen/size_text8"/>
+            <TextView
+                android:id="@+id/txtCodigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_descripcion"
+                android:paddingLeft="@dimen/padding_4dp"
+                android:textSize="@dimen/size_text8"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txtDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/size_default"
+            android:gravity="center|left"
+            android:text="NOMBRE PERSONA"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/bnEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0."
+        android:background="@drawable/effect_ripple"
+        android:paddingTop="@dimen/padding_4dp"
+        android:src="@drawable/ic_eye_24"
+        android:tooltipText="Ayuda"
+        app:tint="@color/black"/>
+    <ImageButton
+        android:id="@+id/bnEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0."
+        android:paddingTop="@dimen/padding_4dp"
+        android:src="@drawable/ic_delete_24"
+        android:tooltipText="Ayuda"
+        android:background="@drawable/effect_ripple"
+        app:tint="@color/red" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

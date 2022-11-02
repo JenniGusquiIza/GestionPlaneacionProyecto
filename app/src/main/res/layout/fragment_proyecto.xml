@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/rlPicking"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/gray200"
+tools:context=".ui.procesos.ProyectoFragment">
+
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_default"
+        android:text="PROYECTOS"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_size_default"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_12dp"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginRight="@dimen/margin_default"
+        android:animateLayoutChanges="true"
+        app:cardCornerRadius="4sp"
+        app:cardElevation="20sp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="TOTAL DE PROYECTOS:"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/size_default"
+                    />
+                <TextView
+                    android:id="@+id/txtCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:textAlignment="textEnd"
+                    android:textSize="@dimen/size_default"/>
+            </LinearLayout>
+
+            <GridLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="2">
+                <Button
+                    android:id="@+id/bnCrear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_12dp"
+                    android:backgroundTint="@color/blue"
+                    android:text="CREAR  "
+                    android:textSize="@dimen/text_size_default"
+                    app:icon="@android:drawable/ic_input_add"
+                    app:iconGravity="textStart"
+                    app:iconSize="@dimen/size_default"/>
+                <Button
+                    android:id="@+id/bnAprobar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_12dp"
+                    android:backgroundTint="@color/gray500"
+                    android:text="Aprobar"
+                    android:textSize="@dimen/text_size_default"
+                    app:icon="@android:drawable/ic_input_add"
+                    app:iconGravity="textStart"
+                    app:iconSize="@dimen/size_default" />
+
+            </GridLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_12dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue">
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="@dimen/size_40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/txt_codigo"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_default"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:text="@string/txt_fechaInicio"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_default"
+                android:textStyle="bold"
+                android:textAllCaps="true"/>
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:text="@string/txt_fechaFin"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_default"
+                android:textStyle="bold"
+                android:textAllCaps="true"/>
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/txt_proyecto"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_default"
+                android:textStyle="bold"
+                android:textAllCaps="true"/>
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/txt_estado"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_default"
+                android:textStyle="bold"
+                android:textAllCaps="true"/>
+            <Space
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"/>
+        </TableRow>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerProyecto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+    </TableLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

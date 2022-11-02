@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemsPicking"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtCodigo"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/txt_codigo"
+            android:textSize="@dimen/text_size_default"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtFase"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/txt_fase"
+            android:textSize="@dimen/text_size_default"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtDescripcion"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/txt_descripcion"
+            android:textSize="@dimen/text_size_default"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/bnEliminar"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_delete_24"
+            android:background="@drawable/effect_ripple"
+            android:contentDescription="@string/txt_null"
+            app:tint="@color/red" />
+
+    </TableRow>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

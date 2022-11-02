@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_dashboard_24"
+            android:title="@string/menu_home"/>
+
+        <item
+            android:id="@+id/nav_menuProceso"
+            android:title="Procesos">
+            <menu>
+                <item
+                    android:id="@+id/nav_proyecto"
+                    android:icon="@drawable/ic_keyboard_tab_24"
+                    android:title="@string/item_proyecto"
+                    android:visible="false"/>
+                <item
+                    android:id="@+id/nav_proyectoAprobar"
+                    android:icon="@drawable/ic_keyboard_tab_24"
+                    android:title="@string/item_proyecto_approve"
+                    android:visible="false"/>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/nav_menuMantenimiento"
+            android:title="Mantenimientos"
+            android:visible="false">
+            <menu>
+                <!--
+                <item
+                    android:id="@+id/nav_persona"
+                    android:icon="@drawable/ic_keyboard_tab_24"
+                    android:title="@string/item_persona" />
+                -->
+
+                <item
+                    android:id="@+id/nav_trabajador"
+                    android:icon="@drawable/ic_keyboard_tab_24"
+                    android:title="@string/item_trabajador"
+                    android:visible="false"/>
+                <item
+                    android:id="@+id/nav_cliente"
+                    android:icon="@drawable/ic_keyboard_tab_24"
+                    android:title="@string/item_cliente"
+                    android:visible="false"/>
+                <item
+                    android:id="@+id/nav_fase"
+                    android:icon="@drawable/ic_keyboard_tab_24"
+                    android:title="@string/item_fase"
+                    android:visible="false"/>
+
+                <item
+                    android:id="@+id/nav_producto"
+                    android:icon="@drawable/ic_keyboard_tab_24"
+                    android:title="@string/item_producto"
+                    android:visible="false"/>
+                <item
+                    android:id="@+id/nav_grupo"
+                    android:icon="@drawable/ic_keyboard_tab_24"
+                    android:title="@string/item_grupo"
+                    android:visible="false"/>
+                <item
+                    android:id="@+id/nav_usuario"
+                    android:icon="@drawable/ic_keyboard_tab_24"
+                    android:title="@string/item_usuario"
+                    android:visible="false"/>
+
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/nav_menuConocenos"
+            android:title="Conocenos">
+            <menu>
+                <item
+                    android:id="@+id/nav_sesion"
+                    android:icon="@drawable/ic_keyboard_tab_24"
+                    android:title="@string/item_cerrar" />
+            </menu>
+        </item>
+    </group>
+</menu>

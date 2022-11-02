@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemsPicking"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtCodigo"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/txt_codigo"
+            android:textSize="@dimen/text_size_default"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtFechaInicio"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/txt_fecha"
+            android:textSize="@dimen/text_size_default"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtFechaFin"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/txt_fecha"
+            android:textSize="@dimen/text_size_default"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtNombreProyectp"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/txt_proyecto"
+            android:textSize="@dimen/text_size_default"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtEstado"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/txt_estado"
+            android:textSize="@dimen/text_size_default"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/bnMenu"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_menu_24"
+            android:background="@drawable/effect_ripple"
+            android:contentDescription="@string/txt_null"
+            />
+
+    </TableRow>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

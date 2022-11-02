@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_descripcion"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_text16"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/bnMenu"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_toEndOf="@+id/txtTitulo"
+            android:layout_marginLeft="@dimen/margin_12dp"
+            android:background="@drawable/effect_ripple"
+            android:contentDescription="@string/txt_null"
+            android:src="@drawable/ic_drag_indicator_24" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/gray500"
+        android:layout_gravity="center"/>
+    <com.anychart.anychart.AnyChartView
+        android:id="@+id/chartPie"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="@dimen/margin_default"/>
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemProductos"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtCodigo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:text="@string/txt_codigo"
+            android:textSize="@dimen/text_size_default"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtGrupo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/txt_descripcion"
+            android:textSize="@dimen/text_size_default"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtDescripcion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/txt_descripcion"
+            android:textSize="@dimen/text_size_default"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtCantidad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/txt_cantidad"
+            android:textSize="@dimen/text_size_default"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtEstado"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/txt_estado"
+            android:textSize="@dimen/text_size_default"
+            android:textStyle="bold" />
+        <ImageButton
+            android:id="@+id/bnMenu"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:src="@drawable/ic_menu_24"
+            android:background="@drawable/effect_ripple"
+            android:contentDescription="@string/txt_null"
+
+            />
+    </TableRow>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

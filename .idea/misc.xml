@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Contabilidad/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_list_item_multiple_choice.xml" value="0.1" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/drawable/border1.xml" value="0.1135" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/drawable/design_1.xml" value="0.129" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/drawable/divider.xml" value="0.1195" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/drawable/effect_ripple.xml" value="0.1475" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/drawable/ic_add_24.xml" value="0.1095" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/drawable/ic_search_24.xml" value="0.1205" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/drawable/layer.xml" value="0.1205" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/drawable/loading.xml" value="0.132" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/drawable/number_picker.xml" value="0.122" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/drawable/side_nav_bar.xml" value="0.127" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout-land/fragment_proyecto_add.xml" value="0.1" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/activity_navigation.xml" value="0.1" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/activity_view_pdf.xml" value="0.1" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/app_bar_navigation.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/content_navigation.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/dialog_confirmation.xml" value="0.22" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/dialog_delete.xml" value="0.25" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/dialog_fase.xml" value="0.20964749536178107" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/dialog_grupo.xml" value="0.25" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/dialog_loading.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/dialog_persona.xml" value="0.12" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/dialog_persona_list.xml" value="0.16673792218896966" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/dialog_producto.xml" value="0.2" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/dialog_proyecto_aprobar.xml" value="0.18" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/dialog_usuario.xml" value="0.22" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/dropdowm_list1.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/fragment_cliente.xml" value="0.1145788798631894" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/fragment_fase.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/fragment_grupo.xml" value="0.11329628046173579" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/fragment_persona.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/fragment_producto.xml" value="0.15" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/fragment_proyecto.xml" value="0.22" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/fragment_proyecto_actividad.xml" value="0.25" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/fragment_proyecto_add.xml" value="0.21" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/fragment_proyecto_aprobar.xml" value="0.22" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/fragment_proyecto_asignar.xml" value="0.16" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/fragment_trabajador.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/fragment_usuario.xml" value="0.12" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/list_trabajadores.xml" value="0.25" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/nav_header_navigation.xml" value="0.15" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/recycle_home.xml" value="0.11510416666666666" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/recycler_fases.xml" value="0.18" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/recycler_graficas.xml" value="0.18" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/recycler_list01.xml" value="0.33" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/recycler_material2.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/recycler_personas.xml" value="0.24545454545454545" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/recycler_personas_trabajador.xml" value="0.2826475849731664" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/recycler_productos.xml" value="0.12" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/recycler_proyecto_aprobar.xml" value="0.1" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/recycler_proyectos.xml" value="0.2" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/recycler_proyectos_actividad.xml" value="0.25" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/layout/recycler_proyectos_aprobar.xml" value="0.25" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/menu/activity_navigation_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/menu/navigation.xml" value="0.18" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/menu/popup_action.xml" value="0.2" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/menu/popup_proyecto.xml" value="0.22" />
+        <entry key="..\:/Users/Contabilidad/StudioProjects/app_electroh/app/src/main/res/menu/popup_proyecto_aprobar.xml" value="0.25" />
+        <entry key="..\:/Users/Jennifer Gusqui/Documents/ANDROID/app_electroh/app/src/main/res/layout/dialog_persona.xml" value="0.21" />
+        <entry key="..\:/Users/Jennifer Gusqui/Documents/ANDROID/app_electroh/app/src/main/res/layout/dialog_producto.xml" value="0.33" />
+        <entry key="..\:/Users/Jennifer Gusqui/Documents/ANDROID/app_electroh/app/src/main/res/layout/fragment_cliente.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Jennifer Gusqui/Documents/ANDROID/app_electroh/app/src/main/res/layout/fragment_home.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Jennifer Gusqui/Documents/ANDROID/app_electroh/app/src/main/res/layout/fragment_producto.xml" value="0.22" />
+        <entry key="..\:/Users/Jennifer Gusqui/Documents/ANDROID/app_electroh/app/src/main/res/layout/fragment_proyecto_asignar.xml" value="0.25" />
+        <entry key="..\:/Users/Jennifer Gusqui/Documents/ANDROID/app_electroh/app/src/main/res/layout/recycler_productos.xml" value="0.22" />
+        <entry key="..\:/Users/Jennifer Gusqui/Documents/ANDROID/app_electroh/app/src/main/res/menu/activity_navigation_drawer.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Jennifer Gusqui/Documents/ANDROID/app_electroh/app/src/main/res/menu/navigation.xml" value="0.1" />
+        <entry key="..\:/Users/Jennifer Gusqui/Documents/ANDROID/app_electroh/app/src/main/res/menu/popup_action.xml" value="0.1675929884566054" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

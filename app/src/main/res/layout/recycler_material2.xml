@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemMateriales"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtMaterial"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:text="@string/txt_descripcion"
+            android:textSize="@dimen/text_size_default"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtDisponible"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="@string/txt_cantidad"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size_default"
+            android:textStyle="bold" />
+
+
+        <com.michaelmuenzer.android.scrollablennumberpicker.ScrollableNumberPicker
+            android:id="@+id/npOcupado"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/number_picker"
+            app:snp_buttonIconLeft="@drawable/ic_remove_24"
+            app:snp_buttonIconRight="@drawable/ic_add_24"
+            app:snp_buttonTouchScaleFactor="0.8"
+            app:snp_buttonBackgroundTintSelector="@color/white"
+            app:snp_value_text_color="@color/white"
+            app:snp_value_text_appearance="?android:attr/textAppearanceMedium"
+            app:snp_buttonPaddingBottom="8dp"
+            app:snp_buttonPaddingLeft="8dp"
+            app:snp_buttonPaddingRight="8dp"
+            app:snp_buttonPaddingTop="8dp"
+            app:snp_maxValue="100"
+            app:snp_minValue="0"
+            app:snp_stepSize="1"
+            app:snp_updateInterval="10"
+            app:snp_value="0"
+            />
+
+    </TableRow>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

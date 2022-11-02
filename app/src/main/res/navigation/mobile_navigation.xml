@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.system.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_proyecto"
+        android:name="com.system.ui.procesos.ProyectoFragment"
+        android:label="@string/item_proyecto"
+        tools:layout="@layout/fragment_proyecto">
+        <action
+            android:id="@+id/action_nav_proyecto_to_nav_proyectoAdd3"
+            app:destination="@id/nav_proyectoAdd" />
+        <action
+            android:id="@+id/action_nav_proyecto_to_nav_proyectoAsign"
+            app:destination="@id/nav_proyectoAsign" />
+        <action
+            android:id="@+id/action_nav_proyecto_to_nav_proyectoActivity"
+            app:destination="@id/nav_proyectoActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_proyectoAdd"
+        android:name="com.system.ui.procesos.ProyectoAddFragment"
+        android:label="@string/item_proyecto_add"
+        tools:layout="@layout/fragment_proyecto_add" >
+        <action
+            android:id="@+id/action_nav_proyectoAdd_to_nav_proyecto"
+            app:destination="@id/nav_proyecto" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_proyectoAsign"
+        android:name="com.system.ui.procesos.ProyectoAsignarFragment"
+        android:label="@string/item_proyecto_asign"
+        tools:layout="@layout/fragment_proyecto_asignar" >
+        <action
+            android:id="@+id/action_nav_proyectoAsign_to_nav_proyecto"
+            app:destination="@id/nav_proyecto" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_proyectoActivity"
+        android:name="com.system.ui.procesos.ProyectoActividadFragment"
+        android:label="@string/item_proyecto_activity"
+        tools:layout="@layout/fragment_proyecto_actividad" >
+        <action
+            android:id="@+id/action_nav_proyectoActivity_to_nav_proyecto"
+            app:destination="@id/nav_proyecto" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_persona"
+        android:name="com.system.ui.mantenimientos.PersonaFragment"
+        android:label="@string/item_persona"
+        tools:layout="@layout/fragment_persona" />
+
+    <fragment
+        android:id="@+id/nav_fase"
+        android:name="com.system.ui.mantenimientos.FaseFragment"
+        android:label="@string/item_fase"
+        tools:layout="@layout/fragment_fase" />
+
+    <fragment
+        android:id="@+id/nav_producto"
+        android:name="com.system.ui.mantenimientos.ProductoFragment"
+        android:label="@string/item_producto"
+        tools:layout="@layout/fragment_producto" />
+    <fragment
+        android:id="@+id/nav_grupo"
+        android:name="com.system.ui.mantenimientos.GrupoFragment"
+        android:label="@string/item_grupo"
+        tools:layout="@layout/fragment_grupo" />
+
+    <fragment
+        android:id="@+id/nav_proyectoAprobar"
+        android:name="com.system.ui.procesos.ProyectoAprobarFragment"
+        android:label="@string/item_proyecto_approve"
+        tools:layout="@layout/fragment_proyecto_aprobar" />
+
+    <fragment
+        android:id="@+id/nav_sesion"
+        android:name="com.system.ui.home.CerrarFragment"
+        android:label="@string/item_cerrar"/>
+
+    <fragment
+        android:id="@+id/nav_usuario"
+        android:name="com.system.ui.mantenimientos.UsuarioFragment"
+        android:label="@string/item_usuario"
+        tools:layout="@layout/fragment_usuario" />
+
+    <fragment
+        android:id="@+id/nav_cliente"
+        android:name="com.system.ui.mantenimientos.ClienteFragment"
+        android:label="@string/item_cliente"
+        tools:layout="@layout/fragment_cliente" />
+
+    <fragment
+        android:id="@+id/nav_trabajador"
+        android:name="com.system.ui.mantenimientos.TrabajadorFragment"
+        android:label="@string/item_trabajador"
+        tools:layout="@layout/fragment_trabajador" />
+
+</navigation>
